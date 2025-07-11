@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navigation nav">
+        <ul class="nav__list">
+          <li class="nav__elem"><a href="#about">about me</a></li>
+          <li class="nav__elem"><a href="#skills">skills</a></li>
+          <li class="nav__elem"><a href="#code">code</a></li>
+          <li class="nav__elem"><a href="#projects">projects</a></li>
+          <li class="nav__elem"><a href="#contacts">contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <img class="about__img" src="assets/Cat.png" alt="Cat">
+        <div class="about__text">
+          <h1 class="about__header">Ivanova Olga</h1>
+          <div class="about__main">
+            <p>I'm a university student. I have a dream of working as a programmer.</p>
+            <p>Education: Far Eastern Federal University</p>
+            <p>Languages:</p>
+            <ul>
+              <li>Russian - Native</li>
+              <li>English - A2</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS(Basic)</li>
+          <li>Vue(Basic)</li>
+          <li>SCSS(Basic)</li>
+          <li>Nuxt(Basic)</li>
+          <li>Python</li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h2>Code</h2>
+        <code>
+          <pre>
+            const square = (num) => {
+              return num * num;
+            };
+          </pre>
+        </code>
+      </section>
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__contacts contacts" id="contacts">
+        <ul class="contacts__list">
+          <li class="contacts__elem">
+            <img class="contacts__img" src="assets/icons/email.svg" alt="email">
+            <a href="">gcat8039@gmail.com</a></li>
+          <li class="contacts__elem">
+            <img class="contacts__img" src="assets/icons/github.svg" alt="github">
+            <a href="https://github.com/Cat5671">Cat5671</a></li>
+        </ul>
+      </div>
+      <span class="footer__year">2025</span>
+      <a href="https://rs.school/courses/javascript-ru"><img class="footer__img" src="assets/rs-school-logo.svg" alt="logo-rs-school"></a>
+    </footer>
+  </body>
+</html>
