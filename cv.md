@@ -1,6 +1,11 @@
 # Ivanova Olga
 
 ***************
+### About:
+
+I'm a university student. I have a dream of working as a programmer.
+
+***************
 ### Contacts: 
 
 * Email: gcat8039@gmail.com
@@ -12,6 +17,33 @@
 * Python
 * HTML
 * CSS
-* JavaScript (Basic)
+* JS (Basic)
+* Nuxt(Basic)
+* Vue (Basic)
+* SCSS (Basic)
 
 *****************
+### Code:
+
+```
+const square = (num) => {
+    return num * num;
+}; 
+```
+
+*****************
+### Projects:
+
+* [zagdom(Vue, SCSS)](https://github.com/Cat5671/zagdom)
+
+*****************
+
+### Education:
+
+* University: Far Eastern Federal University 
+
+*****************
+### Languages:
+
+* Russian - Native
+* English - A2
