@@ -84,6 +84,9 @@ h2 {
 .about {
     padding-top: 40px;
     padding-bottom: 80px;
+}
+
+.about__container {
     display: flex;
     column-gap: 50px;
     justify-content: space-evenly;
@@ -122,6 +125,9 @@ hr {
 .footer {
     padding: 40px 160px 50px;
     background-color: DodgerBlue;
+}
+
+.footer__container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -210,11 +216,11 @@ hr {
         padding-right: 50px;
     }
 
-    .about {
+    .about__container {
         flex-direction: column;
     }
 
-    .about h1 {
+    .about__container h1 {
         text-align: center;
     }
 
